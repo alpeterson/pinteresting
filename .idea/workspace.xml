@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc67bf01-9c2b-4ed2-bc5c-7d906a2719e0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pins/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pins/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pins/show.html.erb" afterPath="$PROJECT_DIR$/app/views/pins/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/_home.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pinteresting.iws" />
@@ -48,7 +44,7 @@
       <file leaf-file-name="_home.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/_home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="53" selection-start="256" selection-end="256" vertical-scroll-proportion="0.16216215" vertical-offset="0" max-vertical-offset="740">
+            <state line="8" column="54" selection-start="256" selection-end="256" vertical-scroll-proportion="0.16216215" vertical-offset="0" max-vertical-offset="740">
               <folding />
             </state>
           </provider>
@@ -181,7 +177,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="951" />
-    <option name="y" value="71" />
+    <option name="y" value="322" />
     <option name="width" value="1834" />
     <option name="height" value="1045" />
   </component>
@@ -670,11 +666,15 @@
       <created>1391432619571</created>
       <updated>1391432619571</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update show view, add glyphicons, and change root path&#10;">
+      <created>1391433558755</created>
+      <updated>1391433558755</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="951" y="71" width="1834" height="1045" extended-state="0" />
+    <frame x="951" y="322" width="1834" height="1045" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -717,7 +717,8 @@
     <MESSAGE value="Add bootstrap to Devise Views" />
     <MESSAGE value="Add the pins scaffold" />
     <MESSAGE value="Added jQuery masonry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added jQuery masonry" />
+    <MESSAGE value="Update show view, add glyphicons, and change root path&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update show view, add glyphicons, and change root path&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1005,7 +1006,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/_home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="256" selection-end="256" vertical-scroll-proportion="0.16216215" vertical-offset="0" max-vertical-offset="740">
+        <state line="8" column="54" selection-start="256" selection-end="256" vertical-scroll-proportion="0.16216215" vertical-offset="0" max-vertical-offset="740">
           <folding />
         </state>
       </provider>
