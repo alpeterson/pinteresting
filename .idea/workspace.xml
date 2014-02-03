@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc67bf01-9c2b-4ed2-bc5c-7d906a2719e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/_home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pins_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pins_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pinteresting.iws" />
@@ -26,6 +26,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="pins_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pins_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="42" selection-start="227" selection-end="227" vertical-scroll-proportion="0.09816754" vertical-offset="0" max-vertical-offset="975">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pins/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,15 +46,6 @@
                 <marker date="1391433244000" expanded="true" signature="170:232" placeholder="..." />
                 <marker date="1391433244000" expanded="true" signature="263:590" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_home.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/_home.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="54" selection-start="256" selection-end="256" vertical-scroll-proportion="0.16216215" vertical-offset="0" max-vertical-offset="740">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -159,7 +159,6 @@
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/pin.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/pins_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pins/_form.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
@@ -172,6 +171,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/pins/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/_home.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/pins_controller.rb" />
       </list>
     </option>
   </component>
@@ -670,7 +670,11 @@
       <created>1391433558755</created>
       <updated>1391433558755</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update show view, add glyphicons, and change root path&#10;">
+      <created>1391433625866</created>
+      <updated>1391433625866</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -905,13 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pins_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="52" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="678" max-vertical-offset="975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pins/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="495">
@@ -1007,6 +1004,13 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/_home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="54" selection-start="256" selection-end="256" vertical-scroll-proportion="0.16216215" vertical-offset="0" max-vertical-offset="740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pins_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="227" selection-end="227" vertical-scroll-proportion="0.09816754" vertical-offset="0" max-vertical-offset="975">
           <folding />
         </state>
       </provider>
